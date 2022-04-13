@@ -208,6 +208,7 @@ RUN echo "200"
 
 FROM base AS prod
 
+RUN echo "prod"
 RUN echo "201"
 RUN echo "202"
 RUN echo "203"
